@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.projects {
+    background: #000;
+    color: #fff;
+}
+
+.projects_container {
+    row-gap: 2rem;
+    margin-left: 26rem;
+}
+
+.projects_card {
+    padding: 2rem 1rem 2rem;
+    background-color: #0f0f0f;
+    transition: background-color .4s;
+    margin-left: 130px;
+    width: 50rem;
+    height: 100%;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.projects_image {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 0;
+    background-color: #000;
+}
+
+.projects_buttons {
+    
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    
+}
+
+.projects_image img {
+    width: 500px;
+    margin-left: 9rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.projects_image img:hover {
+    transform: scale(1.05);
+}
+.section_title-1 {
+    font-size: 20px;
+    padding: 20px 20px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.projects_subtitle, .projects_title, .projects_description, .projects_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.projects_buttons .projects_link {
+    background: #fff;
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #000;
+    transition: .5s;
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.projects_buttons .projects_link:hover {
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+
+}
+
+@media (max-width: 768px) {
+    .projects_card {
+        padding: 2rem 1rem 2rem;
+        background-color: #000;
+        transition: background-color .4s;
+        margin-left: -400px;
+        width: 46rem;
+        height: 100%;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+    .projects_subtitle, .projects_title, .projects_description, .projects_buttons{
+        margin-left: -20px;
+    }
+    .projects_image img {
+        margin-left: 100px;
+    }
+    .projects {
+        width: 100%;
+    }
+}

@@ -1,10 +1,19 @@
-import './App.css';
-
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./navbar";
+import React from "react";
+import Home from "./home";
+import Projects from './projects'
+import Skills from './skills'
 function App() {
   return (
-    <div className="App">
-      <h1>testing</h1>
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbar />
+    <Home />
+    <Skills />
+    <Projects />
+    </BrowserRouter>
+    </>
   );
 }
 
