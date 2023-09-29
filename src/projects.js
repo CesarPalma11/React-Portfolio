@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='projects_image'>
               <img src='./img/project1.png' alt='' className='projects_img'></img>
 
-              <a href='#' className='projects_button button'></a>
+              
             </div>
             
             <div className='projects_content'>
@@ -27,12 +27,14 @@ const Projects = () => {
               </p>
             </div>
             <div className='projects_buttons'>
-              <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' className='projects_link'>
+              <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='projects_link'>
                 <AiFillGithub /> View
+                
               </a>
 
-              <a href='https://replynikestore.netlify.app' target='_blank' className='projects_link'>
+              <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='projects_link'>
                 <AiOutlineDribbble /> View
+                
               </a>
             </div>
           </div>
@@ -50,7 +52,6 @@ const Projects = () => {
             <div className='projects_image'>
               <img src='./img/project1.png' alt='' className='projects_img'></img>
 
-              <a href='#' className='projects_button button'></a>
             </div>
             
             <div className='projects_content'>
@@ -62,12 +63,14 @@ const Projects = () => {
               </p>
             </div>
             <div className='projects_buttons'>
-              <a href='https://github.com/CesarPalma11/React-Portfolio' target='_blank' className='projects_link'>
-                <AiFillGithub /> View
+              <a href='https://github.com/CesarPalma11/React-Portfolio' target='_blank' rel='noopener noreferrer' className='projects_link'>
+                 <AiFillGithub /> View
+                 
               </a>
 
-              <a href='cesarpalma.netlify.app' target='_blank' className='projects_link'>
+               <a href='cesarpalma.netlify.app' target='_blank' rel='noopener noreferrer' className='projects_link'>
                 <AiOutlineDribbble /> View
+                
               </a>
             </div>
           </div>
