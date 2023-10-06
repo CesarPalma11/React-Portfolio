@@ -17,7 +17,6 @@
 .home .content {
     color: #fff;
     width: 70%;
-    z-index: 888;
     margin-left: 20rem;
 }
 
@@ -37,7 +36,6 @@
     padding: 15px 25px;
     margin-top: 20px;
     margin-left: 5rem;
-    z-index: 888;
 }
 
 .home .btn .btn_ct {
@@ -74,7 +72,6 @@
 }
 
 .home .arrow {
-    z-index: 888;
     color: #fff;
     font-size: 35px;
     display: flex;
@@ -89,7 +86,6 @@
     height: 30px;
     border: 2px solid;
     border-radius: 2px;
-    z-index: 888;
   }
   
  .home .arrow:after {
@@ -128,7 +124,6 @@
     bottom: 50px;
     right: 50px;
     background: #0df053;
-    z-index: 888;
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -159,4 +154,42 @@
 }
 .home .icons a:hover {
     transform: scale(1.3);
+}
+
+@media (max-width: 430px) {
+.home .content {
+    margin-left: 5rem;
+}
+
+.home .content h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.home .btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 25px;
+  margin-left: -10rem;
+}
+.home .icons {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -15rem;
+}
+.home .icons a{
+  color: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 27px;
+  background: none;
+  border: none;
+}
+.home .icons a:hover {
+  transform: scale(1.3);
+}
 }
