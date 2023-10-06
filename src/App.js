@@ -4,6 +4,7 @@ import React from "react";
 import Home from "./home";
 import Projects from './projects'
 import Skills from './skills'
+import Contact from "./contact";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
     <Home />
     <Skills />
     <Projects />
+    <Contact />
     </BrowserRouter>
     </>
   );

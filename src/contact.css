@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    overflow-x: hidden;
+}
+.contact {
+    padding: 20px 40px;
+    width: 100%;
+    background: #0d0d0e ;
+}
+
+.contact .container_box {
+    padding: 10px 20px;
+    max-width: 100%;
+    margin-top: 20rem;
+}
+
+.contact .container_box .form {
+    width: 400px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: rgba(102, 109, 6, 0.2) 0px 7px 29px 8px;
+    margin: 0px auto;
+    border-top: 3px solid #000;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.contact .container_box .form h2 {
+    color: #F1C40F;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.contact .container_box .form .box {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.contact .container_box .form .box .table h4 {
+    margin-left: 30px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact .container_box .form .box .input input {
+    margin-right: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8a8a8a;
+    padding: 10px 20px;
+}
+
+.contact .container_box .form .box .input textarea {
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8a8a8a;
+    padding: 10px 20px;
+    resize: none;
+}
+
+.contact .container_box .form button {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 30px;
+    color: #232323;
+    border: none;
+    outline: none;
+    background: none;
+    background: #F1C40F;
+    cursor: pointer;
+}
+.last_footer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+}
+@media (max-width: 768px) {
+    .contact {
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.contact .container_box {
+    padding: 20px 20px;
+    max-width: 100%;
+}
+
+.contact .container_box .form {
+    width: 400px;
+    background: #f6f6f6;
+    padding: 20px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 8px;
+    margin: 0px auto;
+    border-top: 3px solid #ffa500;
+    border-radius: 5px;
+}
+
+.contact .container_box .form h2 {
+    color: #ffa500;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.contact .container_box .form .box {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.contact .container_box .form .box .table h4 {
+    margin-left: 30px;
+    color: #232323;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact .container_box .form .box .input input {
+    margin-right: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8a8a8a;
+    padding: 10px 20px;
+}
+
+.contact .container_box .form .box .input textarea {
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #8a8a8a;
+    padding: 10px 20px;
+    resize: none;
+}
+
+.contact .container_box .form button {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 30px;
+    color: #232323;
+    border: none;
+    outline: none;
+    background: none;
+    background: #ffa500;
+    cursor: pointer;
+}
+
+
+@media (max-width: 430px) {
+    .contact .container_box .form {
+        width: 400px;
+        background: #f6f6f6;
+        padding: 20px 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 8px;
+        margin: 0px auto;
+        border-top: 3px solid #ffa500;
+        border-radius: 5px;
+        margin-left: -70px;
+    }
+}
+
+}

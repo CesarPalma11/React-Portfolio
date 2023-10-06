@@ -1,35 +1,50 @@
 import React from 'react'
 import './home.css'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
-import {AiOutlineArrowDown} from 'react-icons/ai'
+import {AiOutlineArrowDown, AiFillGithub} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
+  const [text] = useTypewriter({
+    words: [' Developer', ' Designer'],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 100,
+  });
+
   return (
     <> 
-    <div className='linea'>
     
     
     <div className='home'>
         <div className='content'>
-          <h1>Fullname</h1> 
-          <p> lorem ipsum</p>
+          <h1>Hey👋!<br></br> I'm a
+          <span style={{color:'yellow'}}>{ text}</span>
+          <span style={{color:'yellow'}}>
+            <Cursor  cursorStyle='|' />
+          </span>
+          
+          </h1> 
         </div>
         <div className='btn'>
-          <Link to='/' className='btn_ct'>Contact</Link>
-          <a href='/documents/CV-Cesar+Gastón+Palma.pdf' download className='btn_cv' without rel='noreferrer' >Download CV </a>
+          <Link to='/' className='btn_ct'>Contacto</Link>
+          <a href='/documents/CV-Cesar+Gastón+Palma.pdf' download className='btn_cv' without rel='noreferrer' >Descargar CV </a>
           
         </div>
         <a href='https://wa.me/5491160185717/?text=Hola,%20queria%20comunicarme%20con%20usted!'  className='btn_wsp' without rel="noreferrer" ><BsWhatsapp /> </a>
         <div className='icons'>
-          <button ><AiFillLinkedin className='buttom' /></button>
-          <button ><AiOutlineTwitter className='buttom'/></button>
-          <button ><AiOutlineInstagram className='buttom'/></button>
+          <a href='https://www.linkedin.com/in/cesarpalma11/' className='buttom' without rel='noreferrer'><AiFillLinkedin /></a>
+          <a href='https://htmlcolorcodes.com/es/' className='buttom' without rel='noreferrer'><AiOutlineTwitter /></a>
+          <a href='https://htmlcolorcodes.com/es/' className='buttom' without rel='noreferrer'><AiOutlineInstagram /></a>
+          <a href='https://github.com/CesarPalma11' className='buttom' without rel='noreferrer'><AiFillGithub /></a>
         </div>
           <div className='arrow'><AiOutlineArrowDown /></div>
         </div>
-        </div>
+        
+
     </>
   )
 }

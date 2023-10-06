@@ -5,13 +5,10 @@
     box-sizing: border-box;
 }
 
-.linea {
-    margin-bottom: 1px solid #fff;
-}
 .skills {
     padding: 30px 90px;
     min-height: 100vh;
-    background: #000;
+    background: #0d0d0e;
     
 }
 .skills .content h2{
@@ -19,6 +16,13 @@
     display: flex;
     justify-content: center;
     margin-top: 10rem;
+}
+.skills .content .parrafo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 18px;
 }
 .skills .content .info {
     color: #fff;
@@ -32,9 +36,10 @@
 .skills .content .info .icons {
     display: flex;
     gap: 10px;
+    justify-content: center;
     border: 1px solid #fff;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding:20px 30px;
     cursor: pointer;
     transition: .5s;
 }

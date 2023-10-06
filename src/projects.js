@@ -8,7 +8,7 @@ const Projects = () => {
     {/* PROJECT 1*/}
       <div className='projects section' id='projects'>
         <div className='section_title-1'>
-          <span>Projects</span>
+          <span>Proyectos</span>
         </div>
         <div className='projects_container'>
           <div className='projects_card'>
@@ -20,15 +20,15 @@ const Projects = () => {
             
             <div className='projects_content'>
               <h3 className='projects_subtitle'>Website</h3>
-              <h2 className='projects_title'>Nike Store Website</h2>
+              <h2 className='projects_title'>Nike Store</h2>
 
               <p className='projects_description'>
-                Project that you carry out in the design and structure of the layout
+                Proyecto hecho con ReactJS
               </p>
             </div>
             <div className='projects_buttons'>
               <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                <AiFillGithub /> View
+                <AiFillGithub /> Repositorio
                 
               </a>
 
@@ -56,15 +56,15 @@ const Projects = () => {
             
             <div className='projects_content'>
               <h3 className='projects_subtitle'>Website</h3>
-              <h2 className='projects_title'>Nike Store Website</h2>
+              <h2 className='projects_title'>Portafolio Personal</h2>
 
               <p className='projects_description'>
-                Project that you carry out in the design and structure of the layout
+                Realizado con ReactJS
               </p>
             </div>
             <div className='projects_buttons'>
               <a href='https://github.com/CesarPalma11/React-Portfolio' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                 <AiFillGithub /> View
+                 <AiFillGithub /> Repositorio
                  
               </a>
 
