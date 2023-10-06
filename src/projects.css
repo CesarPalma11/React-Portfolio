@@ -121,3 +121,15 @@
         cursor: pointer;
     }
 }
+@media (max-width: 390px) {
+    .projects_card {
+        margin-left: -405px;
+        width: 23rem;
+    }
+    .projects_image img {
+        width: 250px;
+        margin-left: 3.5rem;
+        transition: .5s;
+        cursor: pointer;
+    }
+}
