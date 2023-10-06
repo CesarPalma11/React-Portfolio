@@ -50,6 +50,17 @@
     width: 100%;
 }
 
+
+    .container .nav-btn {
+        visibility: hidden;
+        opacity: 0;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 5px;
+    }
+
 @media (max-width: 768px) {
     .container {
         z-index: 999;
@@ -99,10 +110,13 @@
     }
 }
 
+
+
 @media only screen and (max-width: 430px) {
-    .container .nav .nav-btn{
+    .container .nav-btn{
         visibility: visible;
         opacity: 1;
+        background-color: red;
     }
     .container nav{
         position: fixed;
