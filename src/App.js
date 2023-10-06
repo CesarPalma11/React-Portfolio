@@ -9,11 +9,14 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <React.Fragment>
     <Navbar />
+    </React.Fragment>
     <Home />
     <Skills />
     <Projects />
     <Contact />
+    
     </BrowserRouter>
     </>
   );

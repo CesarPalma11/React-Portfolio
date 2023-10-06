@@ -6,9 +6,6 @@
 }
 
 .container {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,7 +32,9 @@
     color: #fff;
     font-weight: 500;
     transition: .55s;
-    font-size: 20px;    
+    font-size: 20px;
+    z-index: 888;
+    
 }
 .container .nav ul li .link:before {
     content: '';
@@ -65,7 +64,6 @@
     }
 
 }
-
 @media (max-width: 430px) {
     .container {
         position: absolute;
@@ -98,5 +96,61 @@
         font-weight: 500;
         transition: .55s;
         font-size: 20px;    
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container .nav .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .container nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-right: 40px;
+        height: 30%;
+        width: -30%;
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+        transition: 1s;
+        transform: translateY(-100vh);
+        background-color: #232323;
+    }
+    .container .responsive_nav {
+        transform: none;
+        max-width: 100%;
+        display: block;
+    }
+
+    .container .nav ul {
+        display: block;
+        width: 400px;
+        margin-left: 140px;
+        margin-bottom: 20px;
+    }
+    .responsive_nav ul li {
+        margin-bottom: 20px;
+        margin-top: 27px;
+        position: static;
+
+    }
+    .nav .nav-close-btn {
+        background-color: #FF4500;
+        margin-right: 20px;
+        margin-top: -30px;
+
+    }
+    .nav-btn {
+        margin-right: 40px;
+    }
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    nav a {
+        font-size: 1.5rem;
     }
 }
