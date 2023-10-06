@@ -123,7 +123,7 @@
 }
 @media (max-width: 390px) {
     .projects_card {
-        margin-left: -405px;
+        margin-left: -410px;
         width: 23rem;
     }
     .projects_image img {
