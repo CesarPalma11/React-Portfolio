@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 600px;
+    padding: 0px 600px;
     transition: .5s ease;
     background: #000;
 }
@@ -23,6 +23,7 @@
 
  .container .nav ul li {
     list-style: none;
+    margin-top: 15px;
 }
 
 .container .nav ul li .link {
@@ -33,7 +34,6 @@
     font-weight: 500;
     transition: .55s;
     font-size: 20px;
-    z-index: 888;
     
 }
 .container .nav ul li .link:before {
@@ -116,7 +116,7 @@
     .container .nav-btn{
         visibility: visible;
         opacity: 1;
-        background-color: red;
+        color: #fff;
     }
     .container nav{
         position: fixed;
@@ -151,7 +151,6 @@
 
     }
     .nav .nav-close-btn {
-        background-color: #FF4500;
         margin-right: 20px;
         margin-top: -30px;
 

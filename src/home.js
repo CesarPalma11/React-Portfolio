@@ -4,6 +4,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
 import {AiOutlineArrowDown, AiFillGithub} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
+import {LuMapPin} from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -24,12 +25,15 @@ const Home = () => {
           <h1>Hey👋!<br></br> I'm a
           <span style={{color:'yellow'}}>{ text}</span>
           <span style={{color:'yellow'}}>
-            <Cursor  cursorStyle='|' />
+            <Cursor  cursorStyle='<' />
+            
           </span>
           
           </h1> 
         </div>
+        <p className='pin'>Argentina <LuMapPin className='pin_color' /> </p>
         <div className='btn'>
+
           <Link to='/' className='btn_ct'>Contacto</Link>
           <a href='/documents/CV-Cesar+Gastón+Palma.pdf' download className='btn_cv' without rel='noreferrer' >Descargar CV </a>
           
