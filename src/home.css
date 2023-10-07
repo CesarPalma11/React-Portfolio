@@ -175,7 +175,7 @@ html, body {
 @media (max-width: 430px) {
 .home .content {
     margin-left: 3rem;
-    margin-top: -4rem;
+    margin-top: -2rem;
 }
 
 .home .content h1 {

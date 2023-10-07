@@ -25,7 +25,10 @@
     list-style: none;
     margin-top: 15px;
 }
-
+.container .nav .buttom_mail {
+    font-size: 20px;
+    color: #fff;
+  }
 .container .nav ul li .link {
     position: relative;
     margin-right: 50px;

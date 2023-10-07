@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {useRef} from 'react'
+import {GoMail} from 'react-icons/go'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import './navbar.css'
 const Navbar = () => {
@@ -15,6 +16,7 @@ const Navbar = () => {
     <>
     <div className='container'>
         <div className="nav">
+        <a href='mailto:cesarpalmag16@gmail.com' className='buttom_mail' without rel='noreferrer' target='_blank'><GoMail /></a>
         <nav ref={navRef}>
                 <ul>
                     <li><Link to="/" className='link'>Inicio</Link></li>
