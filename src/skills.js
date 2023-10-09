@@ -9,10 +9,16 @@ import {BiLogoSass} from 'react-icons/bi'
 const Skills = () => {
   return (
     <>
-    <div className='skills'>
+    <div className='skills' id='skills'>
         <div className='content'>
-            <h2>Conocimientos</h2>
-            <p className='parrafo'>Puesto en practica desde el 2021 realizando proyectos freelancer</p>
+            <h1>Sobre Mi</h1>
+            <ul>
+                <li><p className='parrafo'>Soy Programador FrontEnd con 1 año de experiencia trabajando en proyectos freelancer en busqueda de nuevos desafios y aprendizajes,<br></br>Autodidacta y con buen desempeño en trabajos grupales. Responsable, puntual y con compromiso con el trabajo.</p></li>
+                <h1>Formacion</h1>
+                <li><p className='parrafo'>Certificado de freeCodeCamp ~ Tecnico Informatico ~ Curso Full Stack Udemy ~ Curso Front End Udemy<br></br> Certificado Cybersecurity with Google ~ Python Programming MOOC 2023 ~ React Course Udemy</p></li>
+            </ul>
+            <h1 className='tec'>Tecnologias</h1>
+            
             <div className='info'>
                 <div className='icons'>
                     <p>ReactJS</p>

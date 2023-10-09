@@ -8,7 +8,7 @@ const Projects = () => {
     {/* PROJECT 1*/}
       <div className='projects section' id='projects'>
         <div className='section_title-1'>
-          <span>Proyectos</span>
+          <h1>Proyectos</h1>
         </div>
         <div className='projects_container'>
           <div className='projects_card'>
@@ -50,7 +50,7 @@ const Projects = () => {
         <div className='projects_container'>
           <div className='projects_card'>
             <div className='projects_image'>
-              <img src='./img/project1.png' alt='' className='projects_img'></img>
+              <img src='./img/pf_img.png' alt='' className='projects_img'></img>
 
             </div>
             

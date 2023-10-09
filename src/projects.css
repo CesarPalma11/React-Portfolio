@@ -17,7 +17,7 @@
 
 .projects_card {
     padding: 2rem 1rem 2rem;
-    background-color: #0f0f0f;
+    background-color: #000;
     transition: background-color .4s;
     margin-left: 130px;
     width: 50rem;
@@ -84,6 +84,16 @@
     background: #000;
     border: 1px solid #fff;
 
+}
+
+@media (max-width: 1440px) {
+    .projects_card {
+        margin-left: -60px;
+        background: #000;
+    }
+    .projects_image img {
+        margin-left: 8rem;
+    }
 }
 
 @media (max-width: 768px) {

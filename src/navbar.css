@@ -13,6 +13,8 @@
     padding: 0px 600px;
     transition: .5s ease;
     background: #000;
+    position: fixed;
+    z-index: 999;
 }
 .container .nav {
     position: relative;
@@ -25,10 +27,10 @@
     list-style: none;
     margin-top: 15px;
 }
-.container .nav .buttom_mail {
+.container .buttom_mail {
     font-size: 20px;
     color: #fff;
-  }
+}
 .container .nav ul li .link {
     position: relative;
     margin-right: 50px;
@@ -37,7 +39,7 @@
     font-weight: 500;
     transition: .55s;
     font-size: 20px;
-    
+    cursor: pointer;
 }
 .container .nav ul li .link:before {
     content: '';
@@ -76,8 +78,10 @@
         padding: 15px 430px;
         transition: .5s ease;
     }
+    
 
 }
+
 @media (max-width: 430px) {
     .container {
         position: absolute;

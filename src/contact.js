@@ -6,7 +6,7 @@ const Contact = () => {
 
     const [user, setUser] = useState(
         {
-            Name:'', email:'', subject:'', Message:''
+            Name:'', email:'', Message:''
         }
     )
         let values, names
@@ -18,7 +18,7 @@ const Contact = () => {
     }
     const send = async (e) =>
     {
-        const {Name, email, subject, Message} = user 
+        const {Name, email, Message} = user 
         e.preventDefault()
         const option = {
             method: 'POST',
@@ -26,7 +26,7 @@ const Contact = () => {
                 'Content-Type': 'aplication/json'
             },
             body: JSON.stringify({
-                Name, email, subject, Message
+                Name, email, Message
             })
         }
         const send = await fetch(
@@ -34,7 +34,7 @@ const Contact = () => {
             )
 
         if (send) {
-            alert("Message Sent")
+            alert("¡Mensaje Enviado!")
         }
         else
         {
@@ -45,17 +45,16 @@ const Contact = () => {
   return (
     <>
     <div className='contact'>
-    
         <div className='container_box'>
             <div className='form'>
-                <h2>Contact</h2>
+                <h2>Contacto</h2>
                 <form method='POST'>
                     <div className='box'>
                         <div className='table'>
-                            <h4>Name</h4>
+                            <h4>Nombre:</h4>
                         </div>
                         <div className='input'>
-                            <input type='text' placeholder='Name' value={user.Name} name='Name' onChange={data}></input>
+                            <input type='text' placeholder='Nombre' value={user.Name} name='Name' onChange={data}></input>
                         </div>
                     </div>
                     <div className='box'>
@@ -68,23 +67,16 @@ const Contact = () => {
                     </div>
                     <div className='box'>
                         <div className='table'>
-                            <h4>Subject</h4>
+                            <h4>Mensaje</h4>
                         </div>
                         <div className='input'>
-                            <input type='text' placeholder='Subject' value={user.subject} name='subject' onChange={data}></input>
+                            <textarea placeholder='Mensaje' value={user.Message} name='Message' onChange={data}></textarea>
                         </div>
                     </div>
-                    <div className='box'>
-                        <div className='table'>
-                            <h4>Message</h4>
-                        </div>
-                        <div className='input'>
-                            <textarea placeholder='Message !' value={user.Message} name='Message' onChange={data}></textarea>
-                        </div>
-                    </div>
-                    <button type='submit' onClick={send}>Send</button>
+                    <button type='submit' onClick={send}>Enviar</button>
                 </form>
             </div>
+            
         </div>
     </div>
     <div className='last_footer'>
