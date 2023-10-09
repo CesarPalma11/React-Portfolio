@@ -44,7 +44,7 @@ const Home = () => {
         <div className='icons'>
           <a href='mailto:cesarpalmag16@gmail.com' className='buttom_mail' without rel='noreferrer' target='_blank'><GoMail /></a>
           <a href='https://www.linkedin.com/in/cesarpalma11/' className='buttom' without rel='noreferrer'><AiFillLinkedin /></a>
-          <a href='https://htmlcolorcodes.com/es/' className='buttom' without rel='noreferrer'><AiOutlineTwitter /></a>
+          <a href='https://twitter.com/Palma99969869' className='buttom' without rel='noreferrer'><AiOutlineTwitter /></a>
           <a href='https://github.com/CesarPalma11' className='buttom' without rel='noreferrer'><AiFillGithub /></a>
         </div>
           <div className='arrow'><AiOutlineArrowDown /></div>
