@@ -12,7 +12,7 @@ import 'aos/dist/aos.css'
 const Skills = () => {
 
     useEffect(() => {
-        Aos.init({duration: 1500});
+        Aos.init({duration: 3000});
     }, [])
 
   return (
