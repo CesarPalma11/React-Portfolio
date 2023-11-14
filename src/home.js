@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
@@ -7,8 +7,14 @@ import {GoMail} from 'react-icons/go'
 import {BsWhatsapp} from 'react-icons/bs'
 import {LuMapPin} from 'react-icons/lu'
 import { Link } from 'react-scroll'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2500});
+  }, [])
 
   const [text] = useTypewriter({
     words: [' Developer', ' Designer'],
@@ -22,7 +28,7 @@ const Home = () => {
     
     
     <div className='home'>
-        <div className='content'>
+        <div className='content' data-aos="fade-right">
           <h1>¡Hey👋!<br></br>soy <span style={{color:'yellow'}}>cesar palma</span><br></br> {''}
           <span style={{color:'yellow'}}>{text}</span>
           <span style={{color:'yellow'}}>
@@ -41,7 +47,7 @@ const Home = () => {
           </div>
         </div>
         <a href='https://wa.me/5491160185717/?text=Hola,%20queria%20comunicarme%20con%20usted!'  className='btn_wsp' without rel="noreferrer" ><BsWhatsapp /> </a>
-        <div className='icons'>
+        <div className='icons' data-aos="fade-left">
           <a href='mailto:cesarpalmag16@gmail.com' className='buttom_mail' without rel='noreferrer' target='_blank'><GoMail /></a>
           <a href='https://www.linkedin.com/in/cesarpalma11/' className='buttom' without rel='noreferrer'><AiFillLinkedin /></a>
           <a href='https://twitter.com/Palma99969869' className='buttom' without rel='noreferrer'><AiOutlineTwitter /></a>

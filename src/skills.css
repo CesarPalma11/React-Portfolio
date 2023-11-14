@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .skills {
@@ -15,7 +16,9 @@
     display: flex;
     justify-content: center;
     margin-top: 10rem;
+    
 }
+
 .skills .content .parrafo{
     color: #fff;
     display: flex;
@@ -25,7 +28,8 @@
 }
 .skills .content .info {
     color: #fff;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
     justify-content: center;
     margin-top: 40px;
     gap: 20px;
@@ -58,6 +62,15 @@
     justify-content: center;
     margin-top: 10rem;
 }
+.info_parrafo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.edit_p p {
+    width: 50%;
+    margin-left: 14rem;
+    text-align: center;
+}
 @media (max-width:768px) {
     .skills .content .info {
         color: #fff;
@@ -67,5 +80,21 @@
         margin-top: 40px;
         gap: 20px;
         font-size: 26px;
+    }
+}
+@media (max-width: 480px) {
+    .skills .content .info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .info_parrafo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .edit_p p {
+        width: 140%;
+        margin-left: -2.5rem;
+        text-align: start;
     }
 }

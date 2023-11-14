@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {AiOutlineDribbble, AiFillGithub} from 'react-icons/ai'
 import './projects.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2500});
+  }, [])
+
   return (
     <>
     {/* PROJECT 1*/}
@@ -10,8 +17,8 @@ const Projects = () => {
         <div className='section_title-1'>
           <h1>Proyectos</h1>
         </div>
-        <div className='projects_container'>
-          <div className='projects_card'>
+        <div className='projects_container' data-aos="fade-right">
+          <div className='projects_card' >
             <div className='projects_image'>
               <img src='./img/project1.png' alt='' className='projects_img'></img>
 
@@ -47,7 +54,7 @@ const Projects = () => {
         <div className='section_title-1'>
           
         </div>
-        <div className='projects_container'>
+        <div className='projects_container' data-aos="fade-left">
           <div className='projects_card'>
             <div className='projects_image'>
               <img src='./img/project3.png' alt='' className='projects_img'></img>
@@ -83,7 +90,7 @@ const Projects = () => {
         <div className='section_title-1'>
           
         </div>
-        <div className='projects_container'>
+        <div className='projects_container' data-aos="fade-right">
           <div className='projects_card'>
             <div className='projects_image'>
               <img src='./img/pf_img.png' alt='' className='projects_img'></img>
