@@ -43,7 +43,7 @@ const Home = () => {
         <div className='btn'>
 
           <Link to='contact' spy={true} smooth={true} offset={50} duration={700} className='btn_ct'>Contacto</Link>
-          <a href='/documents/CV - Cesar Gastón Palma.pdf' download className='btn_cv' without rel='noreferrer' >Descargar CV </a>
+          <a href='/documents/Cesar+Palma+FrontEnd+Developer.pdf' download className='btn_cv' without rel='noreferrer' >Descargar CV </a>
           </div>
         </div>
         <a href='https://wa.me/5491160185717/?text=Hola,%20queria%20comunicarme%20con%20usted!'  className='btn_wsp' without rel="noreferrer" ><BsWhatsapp /> </a>
