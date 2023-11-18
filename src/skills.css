@@ -71,6 +71,32 @@
     margin-left: 14rem;
     text-align: center;
 }
+
+
+
+@media (max-width:1440px) {
+    .edit_p p {
+        width: 70%;
+        margin-left: 7rem;
+        text-align: start;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .edit_p p {
+        width: 90%;
+        margin-left: 2rem;
+        text-align: start;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .skills .content .info {
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
 @media (max-width:768px) {
     .skills .content .info {
         color: #fff;

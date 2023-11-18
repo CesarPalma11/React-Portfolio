@@ -94,6 +94,24 @@ body {
     display: flex;
   
 }
+
+
+@media (max-width: 1440px) {
+    .contact .container_box .form {
+        margin-left: 30rem;
+    }
+}
+@media (max-width: 1024px) {
+    .contact .container_box .form {
+        margin-left: 17rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact .container_box .form {
+        margin-left: 9rem;
+    }
+}
 @media (max-width: 768px) {
     .contact {
     padding: 20px 40px;
@@ -181,7 +199,12 @@ body {
         margin-left: -30px;
     }
 }
+}
 
+@media (max-width: 412px) {
+    .contact .container_box .form {
+        margin-left: -2.5rem;
+    }
 }
 @media (max-width: 390px) {
     .contact .container_box .form {

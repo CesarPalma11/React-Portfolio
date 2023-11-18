@@ -175,11 +175,52 @@ html, body {
   font-size: 25px;
 }
 
+@media (max-width: 1024px) {
+  .home .content {
+    margin-left: 9rem;
+    margin-top: -0rem;
+}
+.home .btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 25px;
+  margin-left: -6rem;
+}
+.home .btn_div {
+  margin-top: 2rem;
+}
+.home .pin {
+  margin-left: 9rem;
+  margin-top: -20px;
+}
+}
+
+
+
 
 @media (max-width: 768px) {
   .home .content {
     margin-left: 14rem;
     margin-top: -3rem;
+}
+.home .content h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.home .btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 25px;
+  margin-left: -1rem;
+}
+.home .btn_div {
+  margin-top: 2rem;
+}
+.home .pin {
+  margin-left: 14rem;
+  margin-top: -20px;
 }
 
 .home .content h1 {

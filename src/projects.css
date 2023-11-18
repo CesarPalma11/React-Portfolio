@@ -89,12 +89,29 @@
 
 @media (max-width: 1440px) {
     .projects_card {
-        margin-left: -60px;
+        margin-left: -110px;
         background: #000;
     }
     .projects_image img {
         margin-left: 8rem;
     }
+}
+
+@media (max-width: 1024px) {
+    .projects_card {
+        margin-left: -20rem;
+        background: #000;
+    }
+    .projects_image img {
+        margin-left: 8rem;
+    }
+}
+@media (max-width: 800px) {
+    .projects_card {
+        margin-left: -400px;
+        width: 47rem;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -132,6 +149,13 @@
         cursor: pointer;
     }
 }
+@media (max-width: 412px) {
+    .projects_card {
+        margin-left: -400px;
+        width: 24rem;
+    }
+}
+
 @media (max-width: 390px) {
     .projects_card {
         margin-left: -410px;
