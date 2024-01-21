@@ -36,37 +36,72 @@ const Skills = () => {
             <h1 className='tec' data-aos="fade-up">Tecnologias</h1>
             
             <div className='info' data-aos="fade-up">
-                <div className='icons'>
-                    <p>ReactJS</p>
-                    <GrReactjs />
-                </div>
-                <div className='icons'>
-                    <p>JavaScript</p>
-                    <RiJavascriptFill />
-                </div>
-                <div className='icons'>
-                    <p>HTML5</p>
-                    <AiFillHtml5 />
-                </div>
-                <div className='icons'>
-                    <p>CSS</p>
-                    <FaCss3Alt />
-                </div>
-                <div className='icons'>
-                    <p>GIT</p>
-                    <AiFillGithub />
-                </div>
-                <div className='icons'>
-                    <p>SASS</p>
-                    <BiLogoSass />
-                </div>
-                <div className='icons'>
-                    <p>Redux</p>
-                    <SiRedux />
+                <div className='container-skills'>
+                    <div className='row'>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>HTML <AiFillHtml5 className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>CSS <FaCss3Alt className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>JavaScript <RiJavascriptFill className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>GIT <AiFillGithub className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>SASS <BiLogoSass className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>Redux <SiRedux className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-3'>
+                            <div className='card card-tec'>
+                                <div className='card-body'>
+                                    <p className='card-text card-text-tec'>ReactJS <GrReactjs className='logo-tec'/></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </div>
+
+    
     </>
   )
 }

@@ -1,37 +1,38 @@
 import React from 'react'
-import { Link } from 'react-scroll'
-import {useRef} from 'react'
-import { FaBars, FaTimes} from 'react-icons/fa'
 import './navbar.css'
+import { Link } from 'react-scroll'
 const Navbar = () => {
 
-  const navRef = useRef();
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-}
 
   return (
-    <>
-    <div className='container'>
-        <div className="nav">
-        <nav ref={navRef}>
-                <ul>
-                    <li><Link to="home" spy={true} smooth={true} offset={50} duration={700} className='link'>Inicio</Link></li>
-                    <li><Link to="skills" spy={true} smooth={true} offset={50} duration={700} className='link'>Sobre mi</Link></li>
-                    <li><Link to="projects" spy={true} smooth={true} offset={50} duration={700} className='link'>Proyectos</Link></li>
-                    <li><Link to="contact" spy={true} smooth={true} offset={50} duration={700} className='link'>Contacto</Link></li>
-                </ul>
-                  <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-                    <FaTimes />
-                  </button>
-          </nav>
-            </div>
-            <button className='nav-btn' onClick={showNavbar}>
-              <FaBars />
-            </button>
+ <>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <Link to='home' class="navbar-brand fs-4"></Link>
+    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-4">
+        <Link to='home' class="nav-link mx-2" aria-current="page">Inicio</Link>
+        <Link to='skills' class="nav-link mx-2">Sobre mi</Link>
+        <Link to='projects' class="nav-link mx-2">Proyectos</Link>
+        <Link to='contact' class="nav-link mx-2">Contacto</Link>
+      </div>
     </div>
-    </>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+</>
   )
 }
 

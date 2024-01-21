@@ -15,7 +15,7 @@ html, body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #0d0d0e  ;
+    background: #0d0d0e;
 }
 .home .content {
     color: #fff;
@@ -142,7 +142,6 @@ html, body {
   }
 
 .home .icons {
-    z-index: 888;
     position: absolute;
     right: 30px;
     display: flex;

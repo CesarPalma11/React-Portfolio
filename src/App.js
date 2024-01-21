@@ -6,6 +6,7 @@ import Projects from './projects'
 import Skills from './skills'
 import Contact from "./contact";
 import Rout from "./rout";
+
 function App() {
   return (
     <>

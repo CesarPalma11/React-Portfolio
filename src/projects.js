@@ -12,113 +12,47 @@ const Projects = () => {
 
   return (
     <>
-    {/* PROJECT 1*/}
-      <div className='projects section' id='projects'>
-        <div className='section_title-1'>
-          <h1>Proyectos</h1>
-        </div>
-        <div className='projects_container' data-aos="fade-right">
-          <div className='projects_card' >
-            <div className='projects_image'>
-              <img src='./img/project1.png' alt='' className='projects_img'></img>
 
-              
-            </div>
-            
-            <div className='projects_content'>
-              <h3 className='projects_subtitle'>Website</h3>
-              <h2 className='projects_title'>Nike Store</h2>
+<div className='container-cards'>
+    <div className='row'>
+      <div className='col-12 col-md-6 col-lg-4'>
+        <div className='card'>
+          <img src='./img/project1.png' alt='img' className='card-img-top'></img>
+          <div className='card-body'>
+            <h5 className='card-title'>Nike Store</h5>
+            <p className='card-text'> Realizado con ReactJS - Bootstrap</p>
+            <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
 
-              <p className='projects_description'>
-                Proyecto hecho con ReactJS
-              </p>
-            </div>
-            <div className='projects_buttons'>
-              <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                <AiFillGithub /> Repositorio
-                
-              </a>
-
-              <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                <AiOutlineDribbble /> View
-                
-              </a>
-            </div>
+            <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
           </div>
         </div>
       </div>
+      <div className='col-12 col-md-6 col-lg-4'>
+      <div className='card'>
+          <img src='./img/project3.png' alt='img' className='card-img-top'></img>
+          <div className='card-body'>
+            <h5 className='card-title'>Audi Reply</h5>
+            <p className='card-text'> Realizado con ReactJS - Bootstrap</p>
+            <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
 
-{/* PROJECT 2*/}
-
-<div className='projects section' id='projects'>
-        <div className='section_title-1'>
-          
-        </div>
-        <div className='projects_container' data-aos="fade-left">
-          <div className='projects_card'>
-            <div className='projects_image'>
-              <img src='./img/project3.png' alt='' className='projects_img'></img>
-
-            </div>
-            
-            <div className='projects_content'>
-              <h3 className='projects_subtitle'>Website</h3>
-              <h2 className='projects_title'>Audi Reply</h2>
-
-              <p className='projects_description'>
-                Realizado con React JS
-              </p>
-            </div>
-            <div className='projects_buttons'>
-              <a href='https://github.com/CesarPalma11/audi_agency' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                 <AiFillGithub /> Repositorio
-                 
-              </a>
-
-               <a href='https://audireply.netlify.app/' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                <AiOutlineDribbble /> View
-                
-              </a>
-            </div>
+            <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
           </div>
         </div>
       </div>
+      <div className='col-12 col-md-6 col-lg-4'>
+      <div className='card'>
+          <img src='./img/pf_img.png' alt='img' className='card-img-top'></img>
+          <div className='card-body'>
+            <h5 className='card-title'>Portafolio</h5>
+            <p className='card-text'> Realizado con ReactJS - Bootstrap</p>
+            <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
 
-{/* PROJECT 3 */}
-
-<div className='projects section' id='projects'>
-        <div className='section_title-1'>
-          
-        </div>
-        <div className='projects_container' data-aos="fade-right">
-          <div className='projects_card'>
-            <div className='projects_image'>
-              <img src='./img/pf_img.png' alt='' className='projects_img'></img>
-
-            </div>
-            
-            <div className='projects_content'>
-              <h3 className='projects_subtitle'>Website</h3>
-              <h2 className='projects_title'>Portafolio Personal</h2>
-
-              <p className='projects_description'>
-                Realizado con ReactJS
-              </p>
-            </div>
-            <div className='projects_buttons'>
-              <a href='https://github.com/CesarPalma11/React-Portfolio' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                 <AiFillGithub /> Repositorio
-                 
-              </a>
-
-               <a href='cesarpalma.netlify.app' target='_blank' rel='noopener noreferrer' className='projects_link'>
-                <AiOutlineDribbble /> View
-                
-              </a>
-            </div>
+            <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
           </div>
         </div>
       </div>
+    </div>
+</div>
 
 
     </>
