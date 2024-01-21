@@ -17,7 +17,7 @@ const Navbar = () => {
       <div class="navbar-nav mx-4">
         <Link to='home' class="nav-link mx-2" aria-current="page">Inicio</Link>
         <Link to='skills' class="nav-link mx-2">Sobre mi</Link>
-        <Link to='projects' class="nav-link mx-2">Proyectos</Link>
+        <Link to="projects" class="nav-link mx-2">Proyectos</Link>
         <Link to='contact' class="nav-link mx-2">Contacto</Link>
       </div>
     </div>

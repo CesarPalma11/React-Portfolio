@@ -6,6 +6,7 @@ const Rout = () => {
     <Routes>
         <Route path='/'/>
         <Route path='/skills' />
+        <Route path='/projects' />
     </Routes>
     </>
   )

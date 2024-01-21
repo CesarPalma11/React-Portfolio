@@ -80,7 +80,7 @@ const Contact = () => {
         </div>
     </div>
     <div className='last_footer'>
-            <p>Cesar Palma © 2023 ❤️</p>
+            <p>&copy;{new Date().getFullYear()} Cesar Palma ❤️</p>
         </div>
     </>
   )

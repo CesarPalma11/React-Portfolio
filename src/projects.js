@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <>
 
-<div className='container-cards'>
+<div className='container-cards' id='projects'>
     <div className='row'>
       <div className='col-12 col-md-6 col-lg-4'>
         <div className='card'>
@@ -33,9 +33,9 @@ const Projects = () => {
           <div className='card-body'>
             <h5 className='card-title'>Audi Reply</h5>
             <p className='card-text'> Realizado con ReactJS - Bootstrap</p>
-            <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
+            <a href='https://github.com/CesarPalma11/audi_agency' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
 
-            <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
+            <a href='https://audireply.netlify.app/' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
           </div>
         </div>
       </div>
@@ -45,9 +45,9 @@ const Projects = () => {
           <div className='card-body'>
             <h5 className='card-title'>Portafolio</h5>
             <p className='card-text'> Realizado con ReactJS - Bootstrap</p>
-            <a href='https://github.com/CesarPalma11/Nike_Store/tree/master' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
+            <a href='https://github.com/CesarPalma11/React-Portfolio' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '3rem'}}><AiFillGithub />Repositorio</a>
 
-            <a href='https://replynikestore.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
+            <a href='cesarpalma.netlify.app' target='_blank' rel='noopener noreferrer' className='btn btn-primary' style={{marginLeft: '2rem'}}><AiOutlineDribbble />View</a>
           </div>
         </div>
       </div>
