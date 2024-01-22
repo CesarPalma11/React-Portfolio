@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './home.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { AiFillLinkedin } from 'react-icons/ai';
-import {AiOutlineArrowDown, AiFillGithub} from 'react-icons/ai'
+import { AiFillGithub} from 'react-icons/ai'
 import {GoMail} from 'react-icons/go'
 import {BsWhatsapp} from 'react-icons/bs'
 import {LuMapPin} from 'react-icons/lu'
